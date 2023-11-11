@@ -6,6 +6,7 @@ import classNames from 'classnames'
 import { FiBriefcase } from 'react-icons/fi'
 import AcademicCap from '@/components/icons/AcademicCap'
 import SectionTitle from '@/components/SectionTitle'
+import Link from 'next/link'
 
 export default function ExperienceSection() {
   return (
@@ -72,6 +73,12 @@ export default function ExperienceSection() {
                 </li>
               ))}
             </ol>
+            <Link
+              href="https://www.linkedin.com/in/airtonsena/"
+              className=" w-14 h-7 opacity-60 rounded bg-slate-900 text-gray-100 m-auto flex flex-auto"
+            >
+              +Saiba mais
+            </Link>
           </div>
         </div>
       </div>

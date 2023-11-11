@@ -16,7 +16,7 @@ export const educations: Education[] = [
     description: '',
   },
   {
-    degree: 'Programa de Especializaçâo Ignite',
+    degree: 'Especializaçâo Ignite',
     school: 'Rocketseat',
     startDate: '',
     endDate: 'Present',
