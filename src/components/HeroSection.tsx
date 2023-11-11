@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 import Image from 'next/image'
 import Lottie from 'react-lottie'
@@ -18,10 +19,8 @@ export default function HeroSection() {
           }}
         />
       </span>
-      {/* <p className=" w-4 text-lg font-bold">AirtonSena</p>
-      Transformando ideias em realidade através do código. */}
 
-      <p className="paragraph px-3  text-2xl m-20 md:px-3  text-2xl ">
+      <p className="paragraph px-3  text-2xl m-20 md:px-3 ">
         <h3 className=" text-gray-950">Olá 👋 Me chamo AirtonSena</h3>{' '}
         Transformando ideias em realidade através do código
       </p>

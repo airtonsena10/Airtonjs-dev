@@ -3,75 +3,46 @@ import { Work } from '@/types'
 export const works: Work[] = [
   {
     title: 'Personal Portfolio Website',
-    thumbnailUrl: '/images/works/portfolio-website.png',
-    images: [
-      '/src/images/works/work-01.png',
-      '/src/images/works/work-02.png',
-      '/src/images/works/work-03.png',
-    ],
+    thumbnailUrl: '/src/images/works/portfolio-website.png',
+
     previewUrl: '/',
   },
 
   {
-    title: 'projeto 2',
+    title: 'Discovery Library',
 
-    thumbnailUrl: '/images/works/social-media-app.png',
+    thumbnailUrl: '/src/images/works/library.png',
 
-    images: [
-      '/src/images/works/work-01.png',
-      '/images/works/work-02.png',
-      '/images/works/work-03.png',
-    ],
-    previewUrl: '/',
+    previewUrl: 'https://discoverylibrary34-8vma20vtn-airtonsena10.vercel.app/',
   },
   {
-    title: 'projeto',
+    title: 'Github Blog',
 
-    thumbnailUrl: '/images/works/marketplace-website.png',
+    thumbnailUrl: '/src/images/works/git.png',
 
-    images: [
-      '/images/works/work-01.png',
-      '/images/works/work-02.png',
-      '/images/works/work-03.png',
-    ],
-    previewUrl: '/',
+    previewUrl: 'https://github-blog-one-ochre.vercel.app/',
   },
 
   {
-    title: 'projeto',
+    title: 'Coffe Delivery',
 
-    thumbnailUrl: '/images/works/garments-management-system.png',
+    thumbnailUrl: '/src/images/works/coffe.png',
 
-    images: [
-      '/images/works/work-01.png',
-      '/images/works/work-02.png',
-      '/images/works/work-03.png',
-    ],
-    previewUrl: '/',
+    previewUrl: 'https://coffe-delivery-wheat.vercel.app/',
   },
 
   {
-    title: 'projeto 3',
+    title: 'Ignite Feed',
 
-    thumbnailUrl: '/images/works/point-of-sale.png',
+    thumbnailUrl: '/src/images/works/feed.jpeg',
 
-    images: [
-      '/images/works/work-01.png',
-      '/images/works/work-02.png',
-      '/images/works/work-03.png',
-    ],
     previewUrl: '/',
   },
   {
-    title: 'projeto 4',
+    title: ' IG.News',
 
-    thumbnailUrl: '/images/works/ecommerce.png',
+    thumbnailUrl: '/src/images/works/6.png',
 
-    images: [
-      '/images/works/work-01.png',
-      '/images/works/work-02.png',
-      '/images/works/work-03.png',
-    ],
     previewUrl: '/',
   },
 ]

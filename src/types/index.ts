@@ -19,6 +19,6 @@ export type Education = {
 export type Work = {
   title: string
   thumbnailUrl: string
-  images: string[]
+
   previewUrl: string
 }
