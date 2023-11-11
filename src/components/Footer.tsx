@@ -4,7 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 const Footer = () => {
   return (
     <>
-      <div className="   border-t border-gray-200 px-7 py-10 gap-7 md:flex m-auto">
+      <div className="  px-7 py-10 gap-7 md:flex m-auto">
         <div>
           <a href="mailto:airtonsena41@gmail.com">
             <AiOutlineMail />

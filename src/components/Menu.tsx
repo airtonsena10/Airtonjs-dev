@@ -16,7 +16,7 @@ export default function Menu() {
     <header className="header text-gray-700 dark:text-gray-200">
       <div className=" flex h-16 max-w-7xl items-center px-4 md:px-6">
         <Link href="/" className="text-3xl  font-bold">
-          <span className=" text-sky-950 w-50 h-60 font-bold ">
+          <span className=" text-violet-800 w-50 h-60 font-bold ">
             AS - Developer
           </span>
         </Link>
