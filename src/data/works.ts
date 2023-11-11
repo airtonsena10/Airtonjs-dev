@@ -3,7 +3,7 @@ import { Work } from '@/types'
 export const works: Work[] = [
   {
     title: 'Personal Portfolio Website',
-    thumbnailUrl: '/src/images/works/portfolio-website.png',
+    thumbnailUrl: 'https://i.ibb.co/FHGH4HF/portfolio-website.png',
 
     previewUrl: '/',
   },
