@@ -1,17 +1,15 @@
 /* eslint-disable eqeqeq */
 'use client'
 import { Theme, useTheme } from '@/hooks/use-theme'
-import { Dialog, Switch, Transition } from '@headlessui/react'
-import classNames from 'classnames'
+import { Dialog, Transition } from '@headlessui/react'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+
 import { Fragment, useState } from 'react'
 import { BsLinkedin, BsMoonStars, BsSun } from 'react-icons/bs'
 import { FiInstagram, FiTwitter, FiGithub } from 'react-icons/fi'
 import { HiMenuAlt3 } from 'react-icons/hi'
 
 export default function Menu() {
-  const router = useRouter()
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const { theme, toggleTheme } = useTheme()
   return (
@@ -22,47 +20,7 @@ export default function Menu() {
             AS - Developer
           </span>
         </Link>
-        {/* <ul className="ml-auto hidden items-center md:flex">
-          <li>
-            <Link
-              className={classNames(
-                'inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
-                {
-                  'text-primary-500': router.asPath == '/works',
-                },
-              )}
-              href={'/work'}
-            >
-              Works
-            </Link>
-          </li>
-          <li>
-            <Link
-              className={classNames(
-                'inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
-                {
-                  'text-primary-500': router.asPath == '/blog',
-                },
-              )}
-              href="#blog"
-            >
-              Blog
-            </Link>
-          </li>
-          <li>
-            <Link
-              className={classNames(
-                'inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
-                {
-                  'text-primary-500': router.asPath == '/contact',
-                },
-              )}
-              href="/contact"
-            >
-              Contact
-            </Link>
-          </li>
-        </ul> */}
+
         <div className="gap-7 ml-auto hidden items-center md:flex">
           <Link
             href="https://www.instragram.com"
@@ -166,34 +124,34 @@ export default function Menu() {
                   </Link>
                 </div>
                 <nav className="mt-4 space-y-1 px-2">
-                  <Link
-                    href="/#works"
-                    className={classNames(
-                      'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600',
-                      { 'text-primary-500': router.asPath == '/works' },
-                    )}
-                  >
-                    Works
-                  </Link>
-                  <Link
-                    id="#blog"
-                    className={classNames(
-                      { 'text-primary-500': router.push == '/blog' },
-                      'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600',
-                    )}
-                    href={''}
-                  >
-                    Blog
-                  </Link>
-                  <Link
-                    href="/#contact"
-                    className={classNames(
-                      { 'text-primary-500': router.asPath == '/contact' },
-                      'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600 ',
-                    )}
-                  >
-                    Contact
-                  </Link>
+                  <div className="gap-7 ml-auto hidden items-center md:flex">
+                    <Link
+                      href="https://www.instragram.com"
+                      className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+                    >
+                      <FiInstagram size={32} />
+                    </Link>
+
+                    <Link
+                      href="https://www.twitter.com"
+                      className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+                    >
+                      <FiTwitter size={32} />
+                    </Link>
+                    <Link
+                      href="https://www.facebook.com"
+                      className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+                    >
+                      <BsLinkedin size={32} />
+                    </Link>
+
+                    <Link
+                      href="https://www.github.com"
+                      className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+                    >
+                      <FiGithub size={25} />
+                    </Link>
+                  </div>
                 </nav>
               </div>
             </div>
