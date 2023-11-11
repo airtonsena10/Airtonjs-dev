@@ -1,13 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-type Props = {};
-
-const Circle = (props: Props) => {
+const Circle = () => {
   return (
     <svg height="100" width="100">
       C
     </svg>
-  );
-};
+  )
+}
 
-export default Circle;
+export default Circle
