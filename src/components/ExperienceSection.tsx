@@ -75,9 +75,9 @@ export default function ExperienceSection() {
             </ol>
             <Link
               href="https://www.linkedin.com/in/airtonsena/"
-              className=" w-14 h-7 opacity-60 rounded bg-slate-900 text-gray-100 m-auto flex flex-auto"
+              className=" text-2xl w-4 h-7 opacity-60 rounded bg-slate-900 text-gray-100 m-auto flex flex-auto"
             >
-              +Saiba mais
+              +
             </Link>
           </div>
         </div>
