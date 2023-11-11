@@ -23,27 +23,27 @@ export default function Menu() {
 
         <div className="gap-7 ml-auto hidden items-center md:flex">
           <Link
-            href="https://www.instragram.com"
+            href="https://www.instragram.com/airtonsena10"
             className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
           >
             <FiInstagram size={32} />
           </Link>
 
           <Link
-            href="https://www.twitter.com"
+            href="https://www.twitter.com/airtonsvd"
             className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
           >
             <FiTwitter size={32} />
           </Link>
           <Link
-            href="https://www.facebook.com"
+            href="https://www.linkedin.com/in/airtonsena/"
             className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
           >
             <BsLinkedin size={32} />
           </Link>
 
           <Link
-            href="https://www.github.com"
+            href="https://www.github.com/airtonsena10"
             className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
           >
             <FiGithub size={25} />
@@ -126,27 +126,27 @@ export default function Menu() {
                 <nav className="mt-4 space-y-1 px-2">
                   <div className="gap-7 ml-auto hidden items-center md:flex">
                     <Link
-                      href="https://www.instragram.com"
+                      href="https://www.instragram.com/airtonsena10"
                       className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
                     >
                       <FiInstagram size={32} />
                     </Link>
 
                     <Link
-                      href="https://www.twitter.com"
+                      href="https://www.twitter.com/airtonsvd"
                       className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
                     >
                       <FiTwitter size={32} />
                     </Link>
                     <Link
-                      href="https://www.facebook.com"
+                      href="https://www.linkedin.com/in/airtonsena/"
                       className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
                     >
                       <BsLinkedin size={32} />
                     </Link>
 
                     <Link
-                      href="https://www.github.com"
+                      href="https://www.github.com/airtonsena10"
                       className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
                     >
                       <FiGithub size={25} />
