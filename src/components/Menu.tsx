@@ -123,36 +123,35 @@ export default function Menu() {
                     <span className="text-primary-500">.</span>
                   </Link>
                 </div>
-                <nav className="mt-4 space-y-1 px-2">
-                  <div className="gap-7 ml-auto hidden items-center md:flex">
-                    <Link
-                      href="https://www.instragram.com/airtonsena10"
-                      className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
-                    >
-                      <FiInstagram size={32} />
-                    </Link>
 
-                    <Link
-                      href="https://www.twitter.com/airtonsvd"
-                      className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
-                    >
-                      <FiTwitter size={32} />
-                    </Link>
-                    <Link
-                      href="https://www.linkedin.com/in/airtonsena/"
-                      className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
-                    >
-                      <BsLinkedin size={32} />
-                    </Link>
+                <div className="gap-7 ml-auto hidden items-center md:flex">
+                  <Link
+                    href="https://www.instragram.com/airtonsena10"
+                    className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+                  >
+                    <FiInstagram size={32} />
+                  </Link>
 
-                    <Link
-                      href="https://www.github.com/airtonsena10"
-                      className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
-                    >
-                      <FiGithub size={25} />
-                    </Link>
-                  </div>
-                </nav>
+                  <Link
+                    href="https://www.twitter.com/airtonsvd"
+                    className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+                  >
+                    <FiTwitter size={32} />
+                  </Link>
+                  <Link
+                    href="https://www.linkedin.com/in/airtonsena/"
+                    className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+                  >
+                    <BsLinkedin size={32} />
+                  </Link>
+
+                  <Link
+                    href="https://www.github.com/airtonsena10"
+                    className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
+                  >
+                    <FiGithub size={25} />
+                  </Link>
+                </div>
               </div>
             </div>
           </Transition.Child>
