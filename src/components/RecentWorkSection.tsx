@@ -8,7 +8,7 @@ export default function RecentWorkSection() {
   return (
     <>
       <SectionTitle>Recent Works</SectionTitle>
-      <div className="px-16 mt-10 grid gap-4 xs:grid-cols-2 md:grid-cols-3 md:gap-8">
+      <div className="px-16 mt-10 grid gap-4 xs:grid-cols-2 md:grid-cols-3 md:gap-8 px-5 ">
         {works
           .filter((_, index) => index < 6)
           .map((work) => (

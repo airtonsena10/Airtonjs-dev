@@ -12,7 +12,7 @@ export default function ExperienceSection() {
   return (
     <>
       <SectionTitle>Experiences & Educations</SectionTitle>
-      <div className="px-16 py-15 mt-10 grid gap-8 md:grid-cols-2">
+      <div className="px-16 py-15 mt-10 grid gap-8 md:grid-cols-2 px-5">
         {/* Experience */}
         <div>
           <div className="rounded-2xl bg-white px-10 py-8 shadow-lg dark:bg-gray-700">
