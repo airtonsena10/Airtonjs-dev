@@ -120,11 +120,10 @@ export default function Menu() {
                 <div className="border-b px-2 pb-4 dark:border-gray-700">
                   <Link href="/" className="text-3xl  font-bold">
                     <span>AirtonSena</span>
-                    <span className="text-primary-500">.</span>
                   </Link>
                 </div>
 
-                <div className="gap-7 ml-auto hidden items-center md:flex">
+                <div className="gap-7 ml-auto items-center md:flex">
                   <Link
                     href="https://www.instragram.com/airtonsena10"
                     className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
@@ -155,9 +154,7 @@ export default function Menu() {
               </div>
             </div>
           </Transition.Child>
-          <div className="w-14 flex-shrink-0" aria-hidden="true">
-            {/* Dummy element to force sidebar to shrink to fit close icon */}
-          </div>
+          <div className="w-14 flex-shrink-0" aria-hidden="true"></div>
         </Dialog>
       </Transition.Root>
     </header>
